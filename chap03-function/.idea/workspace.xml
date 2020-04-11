@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca1cc6a8-c546-4201-83dc-a63979bd07e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chap03/section3/paramCount.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap03/section3/extentionFunction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap03/section3/inlineFunction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap03/section3/twoLambdaPram.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/function/META-INF/FUNCTION.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/function/META-INF/FUNCTION.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/function/MaxKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/function/chap03/section1/FuctionKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/function/chap03/section1/function.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +27,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1aCrf49XKBVCefTjCr6PaSNEg4q" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -31,28 +39,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Kotlin.chap03.section3.FunctionReferenceKt">
-    <configuration name="chap03.section3.CallByNameKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.chap03.section3.ExtentionFunctionKt">
+    <configuration name="chap03.section3.ExtentionFunctionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="FUNCTION" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chap03.section3.CallByNameKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="chap03.section3.CallByValueKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="FUNCTION" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chap03.section3.CallByValueKt" />
+      <option name="MAIN_CLASS_NAME" value="chap03.section3.ExtentionFunctionKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -71,27 +66,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chap03.section3.Lamda2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="chap03.section3.InlineFunctionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="FUNCTION" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chap03.section3.Lamda2Kt" />
+      <option name="MAIN_CLASS_NAME" value="chap03.section3.InlineFunctionKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chap03.section3.LamdaKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="chap03.section3.LockHighOrderKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="FUNCTION" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chap03.section3.LamdaKt" />
+      <option name="MAIN_CLASS_NAME" value="chap03.section3.LockHighOrderKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="chap03.section3.TwoLambdaPramKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="FUNCTION" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="chap03.section3.TwoLambdaPramKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.chap03.section3.ExtentionFunctionKt" />
+        <item itemvalue="Kotlin.chap03.section3.LockHighOrderKt" />
+        <item itemvalue="Kotlin.chap03.section3.InlineFunctionKt" />
+        <item itemvalue="Kotlin.chap03.section3.TwoLambdaPramKt" />
         <item itemvalue="Kotlin.chap03.section3.FunctionReferenceKt" />
-        <item itemvalue="Kotlin.chap03.section3.CallByNameKt" />
-        <item itemvalue="Kotlin.chap03.section3.CallByValueKt" />
-        <item itemvalue="Kotlin.chap03.section3.Lamda2Kt" />
-        <item itemvalue="Kotlin.chap03.section3.LamdaKt" />
       </list>
     </recent_temporary>
   </component>
@@ -125,21 +133,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586270943009" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1586270716813">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1586549349549">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586270716813" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1586270716813">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586549349549" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1586549349548">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586270716813" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1586270716812">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586549349548" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1586549349548">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586270716812" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1586270716813">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586549349548" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1586549349549">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586270716813" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586549349549" />
+    <state x="93" y="93" width="1350" height="638" key="dock-window-1" timestamp="1586545956348">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1586545956348" />
   </component>
 </project>
