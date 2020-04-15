@@ -1,4 +1,4 @@
-package chap04
+package chap04.section1
 
 fun main(){
     print("Enter the score: ")
